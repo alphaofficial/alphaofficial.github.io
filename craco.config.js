@@ -7,6 +7,5 @@ module.exports = {
           require('autoprefixer'),
         ],
       },
-    },
-    darkMode: 'class',
+    }
 }
