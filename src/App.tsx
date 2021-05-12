@@ -11,15 +11,15 @@ function App() {
         </div>
 
         <div className="text-center mt-3">
-          <h1 className="text-2xl font-bold">Albert Akrong</h1>
-          <small className="text-md font-semibold text-gray-400">Fullstack Engineer (previously: a shadow monarch)</small>
+          <h1 className="text-2xl font-bold font-mono">{`{ Albert Akrong }`}</h1>
+          <p className="text-sm font-semibold text-gray-400 font-mono">{`<Software Engineer | Fullstack Developer/>`}</p>
         </div>
 
         <div className="mt-5">
           <h2 className="text-2xl font-bold">Bio</h2>
-          <p className="leading-7">Hey there 👋, I'm a <span className="text-yellow-500"><del>shadow monarch lost in  a human world</del></span> <span>full stack engineer.</span></p>
+          <p className="leading-7">Hey there 👋, I'm a <span className="text-yellow-500"><del>shadow monarch lost in  a human world</del></span> <span>software engineer.</span></p>
           <p className="leading-7">🔭 I'm currently working @ <a className="underline text-blue-400 hover:text-blue-500 visited:text-purple-400" href="https://sovtech.com">Sovtech</a> and my day job involves building scaleable software using Typscript, NodeJS, React, React Native, Graphql, AWS and more.</p>
-          <p className="leading-7">🚀 I'm learning to build machine learning systems and I write about them occassionally.</p>
+          <p className="leading-7">🚀 I'm also learning to build machine learning systems and I write about them occassionally.</p>
           <p className="leading-7">🎮 I like games, music, books, comics and I'm fascinated by physics and space exploration.</p>
           <p className="leading-7">💭 My dream: {" "}
               <code className="bg-yellow-500 text-gray-900 rounded-md font-mono px-2">
@@ -33,7 +33,7 @@ function App() {
           <h2 className="text-2xl font-bold">Contact</h2>
           <p className="leading-7">I am open to inconsequential conversations. Feel free to reach out</p>
           <ul className="leading-7 list-disc px-4">
-            <li>Email: <a className="underline text-blue-400" href="mailto:alphaxsalt@gmail.com">alphaxslat@gmail.com</a></li>
+            <li>Email: <a className="underline text-blue-400" href="mailto:alphaxsalt@gmail.com">alphaxsalt@gmail.com</a></li>
             <li>Github: <a className="underline text-blue-400" href="https://github.com/alphaofficial">@alphaofficial</a></li>
             <li>Twitter: <a className="underline text-blue-400" href="https://twitter.com/alphaxsalt">@alphaxsalt</a></li>
             <li>Blog: <a className="underline text-blue-400" href="https://alphaxsalt.medium.com">@alphaxsalt</a></li>
