@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="w-screen">
-      <div className="container mx-auto sm:w-auto md:w-1/3 lg:w-1/3 sm:px-10 px-10 md:px-10 lg:px-2 py-10 dark:bg-gray-800 dark:text-gray-300">
+      <div className="container mx-auto sm:w-auto md:w-1/3 lg:w-1/3 sm:px-10 px-10 md:px-10 lg:px-2 py-10">
         <div className="w-full">
             <img className="h-20 w-20 rounded-full ring-2 ring-blue mx-auto" src="/me.jpeg" alt="Albert"></img>
         </div>
