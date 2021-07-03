@@ -1,17 +1,20 @@
 import React from 'react';
-
+import {HeadMeta} from './components'
 
 function App() {
+  const title = "Albert's website"
+  const description = "Hey there 👋, I'm a fullstack developer. Let's work"
 
   return (
     <div className="w-screen">
+      <HeadMeta title={title} description={description} />
       <div className="container mx-auto sm:w-auto md:w-1/3 lg:w-1/3 sm:px-10 px-10 md:px-10 lg:px-2 py-10">
         <div className="w-full">
             <img className="h-20 w-20 rounded-full ring-2 ring-blue mx-auto" src="/me.jpeg" alt="Albert"></img>
         </div>
 
         <div className="text-center mt-3">
-          <h1 className="text-2xl font-bold font-mono">{`{ Albert Akrong }`}</h1>
+          <h1 className="text-2xl font-bold">Albert Akrong</h1>
           <p className="text-sm font-semibold text-gray-400 font-mono">{`<Software Engineer | Fullstack Developer/>`}</p>
         </div>
 
